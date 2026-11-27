@@ -1,0 +1,93 @@
+{
+  "coverage": {
+    "included_file_count": 14,
+    "release_file_count": 15,
+    "self_reference_exclusions": [
+      "PUBLIC_RELEASE_MANIFEST.json"
+    ]
+  },
+  "file_classifications": {
+    "LICENSE": "first_party_source_license",
+    "PUBLIC_RELEASE_MANIFEST.json": "release_integrity_metadata",
+    "README.md": "first_party_documentation",
+    "THIRD_PARTY_NOTICES.md": "attribution_register",
+    "docs/research.md": "first_party_documentation_with_historical_references",
+    "licenses/official-BSD-3-Clause.txt": "upstream_license_and_attribution",
+    "notebooks/01_synthetic_lineage.ipynb": "first_party_research_notebook",
+    "pyproject.toml": "first_party_package_metadata",
+    "research_edition/__init__.py": "first_party_source",
+    "research_edition/association_replay.py": "first_party_project_specific_replay_source",
+    "research_edition/demo.py": "first_party_source",
+    "research_edition/lineage.py": "first_party_source",
+    "research_edition/model.py": "first_party_source",
+    "tests/test_edition.py": "first_party_test_source",
+    "verify_release.py": "first_party_source"
+  },
+  "files": {
+    "LICENSE": {
+      "bytes": 1535,
+      "sha256": "5347ae6e9f1b2087eb6bb909b1a1f99c8ed87a1f335b427ea85d7dc4156db54b"
+    },
+    "README.md": {
+      "bytes": 2301,
+      "sha256": "bc1d39325ce583c8ed930c82ee329420a5e709b071ab0981f4b153f71c3e4520"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1198,
+      "sha256": "85591fe423c1581dc29c58c95d87544c24dec9ae86f5925c422c2c70a975e723"
+    },
+    "docs/research.md": {
+      "bytes": 3283,
+      "sha256": "a51505e6727e7ef2421581efbffba5f8b7f530150c43b6fe8aa1d3bddbdd51bb"
+    },
+    "licenses/official-BSD-3-Clause.txt": {
+      "bytes": 1507,
+      "sha256": "3910a8b578783928cbbf981c1b204591ab3368e70017dc695d6536f71d272796"
+    },
+    "notebooks/01_synthetic_lineage.ipynb": {
+      "bytes": 1478,
+      "sha256": "cc963a8fdb2783da228d102133280d8e239ecc6b48c928a11ba28977b2477f10"
+    },
+    "pyproject.toml": {
+      "bytes": 477,
+      "sha256": "5dcf5a9d55e98f9a441ba7df08d877d6e89d10cb4593e7d020d9d7eefb07148b"
+    },
+    "research_edition/__init__.py": {
+      "bytes": 64,
+      "sha256": "d55229b65ae521503e6c529ef99ca6213ae171f3915b100acd829a63351413a6"
+    },
+    "research_edition/association_replay.py": {
+      "bytes": 15509,
+      "sha256": "d18fd8a4fec5d47148cd45eb3a4113861a759971bf9ea2f3a931dc0974ef3aa9"
+    },
+    "research_edition/demo.py": {
+      "bytes": 3090,
+      "sha256": "beb7839d0b004a5a0176db36b52a7248fcec34c28aafcab49ca03e861d0b0637"
+    },
+    "research_edition/lineage.py": {
+      "bytes": 3415,
+      "sha256": "f94a9866578807f86e4c634fe80d93684988ec5ca6435509b36f14915e531ca9"
+    },
+    "research_edition/model.py": {
+      "bytes": 3195,
+      "sha256": "fe1db37e7ffc0da8509e2d7e4c5871632ed8e7d256be77ef1f3a0b3bbecb97df"
+    },
+    "tests/test_edition.py": {
+      "bytes": 3393,
+      "sha256": "232a71e9cda72d1fa6424be58f728c4bf7b25f29a35c50f14ce3eb06e294513a"
+    },
+    "verify_release.py": {
+      "bytes": 2544,
+      "sha256": "dda98758ee754174ec40d4b504e71febb7e7ba7bf5ebb3862d7a1800d3a0b4cc"
+    }
+  },
+  "predecessor": {
+    "public_release_manifest_sha256": "b267e1cd31d6b331471fe5b4b05f70ceb0b3a5d1da7749ff4e591b35a20f429d",
+    "version": "1.0.0rc1"
+  },
+  "release": "Biohub Public Research Edition",
+  "release_id": "biohub-1.0.0rc1-bsd3.1",
+  "schema": 1,
+  "scope": "Portable edition and synthetic example. Historical identities are separate.",
+  "version": "1.0.0rc1"
+}

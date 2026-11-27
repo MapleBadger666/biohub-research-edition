@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biohub-public-research-edition"
+version = "1.0.0rc1"
+description = "A portable synthetic example of association and lineage reconstruction"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3"]
+license = "BSD-3-Clause"
+license-files = ["LICENSE", "licenses/official-BSD-3-Clause.txt", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools]
+packages = ["research_edition"]
